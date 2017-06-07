@@ -1,0 +1,49 @@
+*{
+	margin: 0 ;
+	padding: 0;
+}
+.poster-item{
+	list-style: none;
+}
+.poster-item a img{
+	width: 100%;
+}
+.poster-main{
+	width: 1000px;
+	height: 274px;
+	position: relative;
+	margin: 0 auto;
+}
+.poster-main .poster-list{
+	width: 1000px;
+	height: 274px;	
+}
+.poster-main .poster-btn{
+	position: absolute;
+	top: 0;
+	width: 200px;
+	height: 274px;
+	z-index: 10;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 900;
+	line-height: 164px;
+	cursor: pointer;
+}
+ .poster-main .poster-btn-prev{
+	left: 0;
+}
+ .poster-main .poster-btn-next{
+	right: 0;
+}
+.poster-main a,.poster-main img{
+	display: block;
+	width: 100%;
+}
+.poster-main .poster-list .poster-item{
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}

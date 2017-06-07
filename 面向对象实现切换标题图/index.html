@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="normalize.css" />
+		<link rel="stylesheet" href="css/index.css" />
+
+<script type="text/javascript" src="jquery1.13.min.js" ></script>
+
+
+
+		<script type="text/javascript" src="js/index.js" ></script>
+	</head>
+	<body>
+		<div class="j-poster poster-main" data-setting='{
+			"width":1100,
+			"height":164,
+			"posterWidth":700,
+			"posterHeight":164,
+			"speed":300,
+			"scale":0.8,
+			"verticalAlign":"middle",
+			"autoPlay":true,
+			"delay":2000
+		
+		}'>
+			<div class="poster-btn poster-btn-prev"><</div>
+			<div class="poster-btn poster-btn-next">></div>
+			<ul class="poster-list">
+				<li class="poster-item"><a href=""><img src="img/1.jpg" alt="" /></a></li>
+				<li class="poster-item"><a href=""><img src="img/2.jpg" alt="" /></a></li>
+				<li class="poster-item"><a href=""><img src="img/3.jpg" alt="" /></a></li>
+				<li class="poster-item"><a href=""><img src="img/1.jpg" alt="" /></a></li>
+				<li class="poster-item"><a href=""><img src="img/2.jpg" alt="" /></a></li>
+				<li class="poster-item"><a href=""><img src="img/3.jpg" alt="" /></a></li>
+				<li class="poster-item"><a href=""><img src="img/1.jpg" alt="" /></a></li>
+				<li class="poster-item"><a href=""><img src="img/1.jpg" alt="" /></a></li>
+				<li class="poster-item"><a href=""><img src="img/2.jpg" alt="" /></a></li>
+				<li class="poster-item"><a href=""><img src="img/3.jpg" alt="" /></a></li>
+				<li class="poster-item"><a href=""><img src="img/1.jpg" alt="" /></a></li>
+			</ul>
+		</div>
+		
+		
+	
+		
+		<script>
+			$(function(){
+//				var carousel= new Carousel($(".j-poster").eq(0));
+				Carousel.init($(".j-poster"));
+				
+			});
+		</script>
+	</body>
+</html>
